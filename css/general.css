@@ -4,13 +4,17 @@
 html {
 	font-family:  Helvetica, sans-serif;
 	font-size: .7em;
+	line-height: 1rem;
+
+
 }
 
 body {
+	
 	margin:0 auto;
 	width: 80%;
-	background-color: #fff;
 	border-style: solid;
+	background-color: #fff;
 	border-width: .2em;
 	border-color: #ECEAEA;
 	border-radius: 1em;
@@ -20,13 +24,21 @@ h1 {
 	color: #771E1F;
 	}
 	
-hr. {
-	color: #B3B0B0
+	
+hr {
+  border: 0;
+  background-color: #ECEAEA;
+  height: .2rem;
 }
+
 	
 figcaption {
 	background-color: #ECEAEA;
 	color: #ffff;
+	margin: 0;	
+	
+	
+	
 }
 
 
@@ -46,3 +58,14 @@ h2{
 	color: #771E1F;
 		
 	}
+	
+ 
+dl{
+ list-style-type: none;
+ }
+
+ 
+ ul {
+ list-style-type: none;
+ color: #771E1F;
+ }
